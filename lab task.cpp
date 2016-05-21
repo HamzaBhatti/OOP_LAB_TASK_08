@@ -258,7 +258,7 @@ case 3:
 	system("cls");	
 	cout<<"What do you want to do: \n";
 	cout<<"(1)Add member\n";
-	cout<<"(2)Remove Members\n";
+	//cout<<"(2)Remove Members\n";
 	cout<<"(3)View members\n";
 	cin>>choice2;	
 
@@ -269,8 +269,8 @@ case 3:
 			b1.getdata();
 			
 		
-		case 2:
-			b1.remove();
+		//case 2:
+		//	b1.remove();
 		
 		case 3:
 			b1.getcount();
