@@ -127,7 +127,7 @@ if (i == 1)
 }
 
 
-class marching_band : public band
+class marching_band 
 {
 
 	protected:
@@ -135,15 +135,7 @@ class marching_band : public band
 		int take;
 	
 	public:
-		int getcount()
-			{
-				total = count;
-				//count = count +pyr;
-				cout<<"\nNow you have total member:  "<<count;
-
-
-			}
-
+		
 		void check_run();	
 
 
@@ -255,28 +247,29 @@ break;
 //}
 
 case 3:
-	system("cls");	
-	cout<<"What do you want to do: \n";
-	cout<<"(1)Add member\n";
+	system("cls");
+	b1.check_run();	
+	//cout<<"What do you want to do: \n";
+	//cout<<"(1)Add member\n";
 	//cout<<"(2)Remove Members\n";
-	cout<<"(3)View members\n";
-	cin>>choice2;	
+	//cout<<"(3)View members\n";
+	//cin>>choice2;	
 
-	switch (choice2)
-	{
+	//switch (choice2)
+	//{
 	
-		case 1:
-			b1.getdata();
+		//case 1:
+		//	b1.getdata();
 			
 		
 		//case 2:
 		//	b1.remove();
 		
-		case 3:
-			b1.getcount();
+		//case 3:
+	//		b1.getcount();
 	
 	
-	}
+	//}
 	
 
 break;
